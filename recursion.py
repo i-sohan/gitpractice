@@ -1,4 +1,4 @@
-#fibonacci series recursion of program
+#fibonacci series recursion of program in python
 def fibonacci(n):
     if n == 0:
         return 0
