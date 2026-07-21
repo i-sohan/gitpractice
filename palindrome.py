@@ -1,4 +1,4 @@
-#palindrome program
+#palindrome program python
 s = "malayalam"  
 i, j = 0, len(s) - 1  
 is_palindrome = True  
