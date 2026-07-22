@@ -1,0 +1,38 @@
+New Git Features
+
+1. git switch and git restore (Recommended)
+
+Instead of:
+
+git checkout feature-login
+
+Use:
+
+git switch feature-login
+
+Create and switch:
+
+git switch -c feature-login
+
+Restore a file:
+
+git restore app.py
+
+
+2.Git Worktrees ⭐⭐⭐⭐⭐
+
+One of the most useful modern Git features.
+
+You can work on multiple branches simultaneously without cloning the repository again.
+
+Example:
+
+git worktree add ../feature-login feature-login
+
+Now you have:
+
+project/
+feature-login/
+
+Both are linked to the same Git repository, letting you work on different branches in separate folders. This feature has become increasingly popular and continues to improve.
+
